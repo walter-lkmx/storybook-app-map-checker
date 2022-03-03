@@ -1,0 +1,87 @@
+:root {
+    --f-default-text-color: black;
+    --f-default-text-font: "Rubik", 'sans-serif', -apple-system, system-ui, Helvetica, Arial, sans-serif;
+    --f-default-text-size: 16px;
+
+    --f-text-selection-color: yellow;
+    
+    // Paragraphs
+    --f-paragraph-text-size: var(--f-default-text-size);
+    --f-paragraph-text-font: var(--f-default-text-font);
+    --f-paragraph-text-weight: normal;
+    --f-paragraph-text-color: var(--f-default-text-color);
+    --f-paragraph-line-height: 1.5em;
+    --f-paragraph-margin: 0 0 var(--f-gutter) 0;
+
+    // Smalls
+    --f-small-text-size: 12px;
+    
+    // Links
+    --f-links-text-color: black;
+    --f-links-text-hover-color: blue;
+    --f-links-text-visited-color: purple;
+    --f-links-text-active-color: red;
+    
+    // List items
+    --f-list-item-text-size: var(--f-paragraph-text-size);
+    --f-list-item-text-font: var(--f-paragraph-text-font);
+    --f-list-item-text-weight: var(--f-paragraph-text-weight);
+    --f-list-item-text-color: var(--f-paragraph-text-color);
+    --f-list-item-line-height: 1.5em;
+    --f-list-item-margin: 0 0 var(--f-gutter) 0;
+    
+    // Header default values
+    --f-default-headers-font: var(--f-default-text-font);
+    --f-default-headers-weight: 600;
+    --f-default-headers-color: var(--f-default-text-color);
+    --f-default-headers-line: 1.5em;
+    --f-default-headers-margin: 0 0 var(--f-gutter) 0;
+    
+    // H1
+    --f-h1-text-size: 36px;
+    --f-h1-text-font: var(--f-default-headers-font);
+    --f-h1-text-weight: var(--f-default-headers-weight);
+    --f-h1-text-color: var(--f-default-headers-color);
+    --f-h1-text-line-height: var(--f-default-headers-line);
+    --f-h1-text-margin: var(--f-default-headers-margin);
+    
+    // H2
+    --f-h2-text-size: 32px;
+    --f-h2-text-font: var(--f-default-headers-font);
+    --f-h2-text-weight: var(--f-default-headers-weight);
+    --f-h2-text-color: var(--f-default-headers-color);
+    --f-h2-text-line-height: var(--f-default-headers-line);
+    --f-h2-text-margin: var(--f-default-headers-margin);
+    
+    // H3
+    --f-h3-text-size: 24px;
+    --f-h3-text-font: var(--f-default-headers-font);
+    --f-h3-text-weight: var(--f-default-headers-weight);
+    --f-h3-text-color: var(--f-default-headers-color);
+    --f-h3-text-line-height: var(--f-default-headers-line);
+    --f-h3-text-margin: var(--f-default-headers-margin);
+    
+    // H4
+    --f-h4-text-size: 20px;
+    --f-h4-text-font: var(--f-default-headers-font);
+    --f-h4-text-weight: var(--f-default-headers-weight);
+    --f-h4-text-color: var(--f-default-headers-color);
+    --f-h4-text-line-height: var(--f-default-headers-line);
+    --f-h4-text-margin: var(--f-default-headers-margin);
+    
+    // H5
+    --f-h5-text-size: 16px;
+    --f-h5-text-font: var(--f-default-headers-font);
+    --f-h5-text-weight: var(--f-default-headers-weight);
+    --f-h5-text-color: var(--f-default-headers-color);
+    --f-h5-text-line-height: var(--f-default-headers-line);
+    --f-h5-text-margin: var(--f-default-headers-margin);
+    
+    // H6
+    --f-h6-text-size: 14px;
+    --f-h6-text-font: var(--f-default-headers-font);
+    --f-h6-text-weight: var(--f-default-headers-weight);
+    --f-h6-text-color: var(--f-default-headers-color);
+    --f-h6-text-line-height: var(--f-default-headers-line);
+    --f-h6-text-margin: var(--f-default-headers-margin);
+}    
